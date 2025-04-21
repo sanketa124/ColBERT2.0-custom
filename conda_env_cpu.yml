@@ -1,0 +1,21 @@
+name: colbertcpu
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - faiss-cpu
+  - pip=21.0
+  - pytorch-cpu=2.6.0
+  - pip:
+    - bitarray
+    - datasets
+    - gitpython
+    - ninja
+    - scipy
+    - tqdm
+    - transformers
+    - ujson
+    - flask
+    - python-dotenv
